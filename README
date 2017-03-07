@@ -1,0 +1,22 @@
+Go implementation of BLAKE2Xs XOF (extended output function).
+See: https://blake2.net/blake2x.pdf
+
+INSTALLATION
+
+    $ go get github.com/dchest/blake2xs
+
+
+DOCUMENTATION
+
+    See http://godoc.org/github.com/dchest/blake2xs
+
+
+PUBLIC DOMAIN DEDICATION
+
+Written in 2017 by Dmitry Chestnykh.
+
+To the extent possible under law, the author have dedicated all copyright
+and related and neighboring rights to this software to the public domain
+worldwide. This software is distributed without any warranty.
+http://creativecommons.org/publicdomain/zero/1.0/
+
