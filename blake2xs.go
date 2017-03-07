@@ -118,8 +118,8 @@ func (x *xof) Read(p []byte) (nn int, err error) {
 		}
 		p[i] = x.x[x.px]
 		x.px++
-		nn++
 		x.left--
+		nn++
 	}
 	return nn, err
 }
